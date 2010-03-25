@@ -1,0 +1,31 @@
+#slider {
+  width: 940px;
+  height: 344px;
+  background: #fff;
+  overflow: hidden;
+}
+
+#slider .photo {
+  border-left: 1px solid #fff;
+  float: left;
+  width: 46px;
+  height: 344px;
+  background-position: top center;
+  cursor: pointer;
+}
+
+#slider .photo1 {
+  border-left: 0;
+  width: 752px;
+}
+
+#slider .active {
+  cursor: default;
+}
+
+#slider .photo1 { background-image: url(images/photo1.jpg); }
+#slider .photo2 { background-image: url(images/photo2.jpg); }
+#slider .photo3 { background-image: url(images/photo3.jpg); }
+#slider .photo4 { background-image: url(images/photo4.jpg); }
+#slider .photo5 { background-image: url(images/photo5.jpg); }
+
