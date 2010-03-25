@@ -5,10 +5,15 @@
   overflow: hidden;
 }
 
+#slider .container {
+  width: 1000px;
+  height: 344px;
+}
+
 #slider .photo {
   border-left: 1px solid #fff;
   float: left;
-  width: 46px;
+  width: 47px;
   height: 344px;
   background-position: top center;
   cursor: pointer;
@@ -19,10 +24,15 @@
   width: 752px;
 }
 
+#slider .photo5 {
+  float: left;
+}
+
 #slider .active {
   cursor: default;
 }
 
+/* ด้านล่างนี้แก้เป็น URL ของรูป */
 #slider .photo1 { background-image: url(images/photo1.jpg); }
 #slider .photo2 { background-image: url(images/photo2.jpg); }
 #slider .photo3 { background-image: url(images/photo3.jpg); }

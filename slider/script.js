@@ -11,10 +11,10 @@ $(document).ready(function(){
     if($(this).hasClass('active') || moving){ return; }
     moving = true;
     
-    $('#slider .photo.active').animate({width: '46px'}, 1500, function(){
+    $('#slider .photo.active').animate({width: '46px'}, 1000, function(){
       $(this).removeClass('active');
     })
-    $(this).animate({width: '752px'}, 1500, function(){
+    $(this).animate({width: '752px'}, 1000, function(){
       moving = false;
     }).addClass('active');
   });
