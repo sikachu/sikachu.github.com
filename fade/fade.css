@@ -1,0 +1,62 @@
+body {
+  position: relative;
+}
+
+#fade {
+  width: 635px;
+  height: 373px;
+  background: #fff;
+  position: relative;
+  margin-left: 19px;
+}
+
+#fade .selectors {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+#fade .selector {
+  width: 23px;
+  height: 25px;
+  float: left;
+  background: url(images/btn_select_1.jpg) no-repeat;
+}
+
+#fade .active {
+  background-image: url(images/btn_select_2.jpg);
+}
+
+#fade .photos {
+  clear: both;
+  position: relative;
+}
+
+#fade .photo {
+  border-left: 1px solid #fff;
+  height: 323px;
+  width: 588px;
+  background-repeat: no-repeat;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#fade .active {
+  display: block;
+}
+
+#fade .badge {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  width: 116px;
+  height: 116px;
+  background: url(images/badge.png) no-repeat;
+}
+
+/* ด้านล่างนี้แก้เป็น URL ของรูป */
+#fade .photo1 { background-image: url(images/photo1.jpg); }
+#fade .photo2 { background-image: url(images/photo2.jpg); }
+#fade .photo3 { background-image: url(images/photo3.jpg); }
+
