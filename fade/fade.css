@@ -22,7 +22,7 @@ body {
   background: url(images/btn_select_1.jpg) no-repeat;
 }
 
-#fade .active {
+#fade .active, #fade .selector:hover {
   background-image: url(images/btn_select_2.jpg);
 }
 

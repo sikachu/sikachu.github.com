@@ -9,11 +9,12 @@ $(document).ready(function(){
     var photo = $(this).attr('rel')
     resetInterval();
     
+    $('#fade .selector').removeClass('active');
+    $(this).addClass('active');
     $('#fade .photo.active').fadeOut(interval)
     $('#fade .' + photo).fadeIn(interval, function(){
-      $('#fade .photo, #fade .selector').removeClass('active');
+      $('#fade .photo').removeClass('active');
       $(this).addClass('active');
-      $('#fade .selector[rel=' + photo + ']').addClass('active');
     })
     return false;
   })

@@ -21,7 +21,7 @@
 
 #slider .photo1 {
   border-left: 0;
-  width: 752px;
+  width: 658px;
 }
 
 #slider .photo5 {
@@ -38,4 +38,6 @@
 #slider .photo3 { background-image: url(images/photo3.jpg); }
 #slider .photo4 { background-image: url(images/photo4.jpg); }
 #slider .photo5 { background-image: url(images/photo5.jpg); }
+#slider .photo6 { background-image: url(images/photo5.jpg); }
+#slider .photo7 { background-image: url(images/photo5.jpg); }
 

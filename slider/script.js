@@ -19,7 +19,7 @@ $(document).ready(function(){
     $('#slider .photo.active').animate({width: '46px'}, 800, function(){
       $(this).removeClass('active');
     })
-    $(this).animate({width: '752px'}, 800, function(){
+    $(this).animate({width: '658px'}, 800, function(){
       moving = false;
     }).addClass('active');
   });
